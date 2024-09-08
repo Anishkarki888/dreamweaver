@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Form</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body class="education">
+    <main>
+        <header class="edu">
+            <h1>Education Form</h1>
+        </header>
+        <form action="#" method="post">
+            <label class="title" for="subject">Subject You Want to Study:</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter your desired subject" required>
+            
+            <label class="title" for="gpa">Your GPA:</label>
+            <input type="text" id="gpa" name="gpa" placeholder="Enter your GPA" required>
+
+            <label class="title" for="ielts">Your IELTS Score:</label>
+            <input type="text" id="ielts" name="ielts" placeholder="Enter your IELTS score" required>
+            
+            <label class="title" for="location">Preferred Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter your preferred location" required>
+
+
+            <button type="submit1">Submit</button>
+            <button type="button" onclick="window.location.href='{% url 'home' %}'">Back to Home Page</button>
+        </form>
+    </main>
+</body>
+</html>
+
